@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+body{
+    font-family: 'proxima-nova', sans-serif;
+    user-select: none;
+    align-items: auto;
+    justify-self: auto;
+    background-color: #f5f5f5
+}
+.input-container{
+   width: 350px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    border: 0.1px solid #d1c8c8;
+    background-color: white;
+    height: 380px;
+    width: auto;
+}
+
+.inst-logo{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+.lp-input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background-color: whitesmoke;
+    border: 0.1px solid #d1c8c8;
+    width: 250px;
+    height: 35px;
+    /* margin-top: 10px; */
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn{
+    background-color: #a5c5ff;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    margin-right: auto;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    /* cursor: pointer; */
+}
+.actived{
+    cursor: pointer;
+    background-color: blue;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+.line{
+    width: 100px;
+    height: 0.5px;
+    background: #d1c8c8;
+}
+.ili{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+.fb-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.fb-login img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+.err{
+    display: none;
+    color: #ed4956;
+    color: rgba(var(--i30,237,73,86),1);
+    margin: 10px 40px;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    border: 0.1px solid #d1c8c8;
+    width: 350;
+    height: 55px;
+    font-size: 13px;
+}
+
+.help span{
+    color: blue;
+    cursor: pointer;
+}
+.loginputtxt{
+    top: 217px;
+    position: absolute;
+    font-size: 12px;
+}
+.pasinputtxt{
+    top: 267px;
+    position: absolute;
+    font-size: 12px;
+}
+input{
+    font-size: 12px;
+    padding: 0 4px;
+
+}
+.a-fb, .forgot, .help span{
+    color: #2758a7
+}
